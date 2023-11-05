@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="smoke">
+        <span>C</span>
+        <span>A</span>
+        <span>L</span>
+        <span>C</span>
+        <span>U</span>
+        <span>L</span>
+        <span>A</span>
+        <span>T</span>
+        <span>O</span>
+        <span>R</span>
+    </div>
+    <div class="container">
+        <h3 class="greet">Welcome <input type="text" placeholder="Write your name please" id="name-input" ></h3>
+
+<form action="">
+    <div class="double">
+        <div class="form-harcama">
+            <label for="">Spended:</label>
+            <input type="text" placeholder="please write your product" id="harcama">
+        </div>
+        <div class="form-fiyat">
+            <label for="">Price:</label>
+            <input type="number" placeholder="please write price" id="fiyat">
+        </div>
+    </div>
+    <div class="double">
+        <div class="form-state">
+            <input type="checkbox" id="status-input">
+            <label class="label" for="">Payed</label>
+        </div>
+        <button class="ekle-btn">Add</button>
+    </div>
+</form>
+<div class="total">
+    Totaly Spended: <span id="total-info">0</span>₺
+</div>
+    <select name="" id="filter-select">
+        <option value="all">All</option>
+        <option value="not-payed">Not Payed</option>
+        <option value="payed">Payed</option>
+    </select>
+    <div class="list"></div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
